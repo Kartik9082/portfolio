@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "custom-red": "#ff0000",
+        'custom-color': '#161B20'
       },
       fontFamily: {
-        'sans': ['Poppins', 'sans-serif']
+        'sans': ["Major Mono Display", "monospace"]
       }
     },
   },

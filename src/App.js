@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -7,9 +8,10 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <div className="bg-custom-color text-white">
       <Navbar />
       <Hero />
+      <About/>
       <Skills />
       <Projects />
       <Education />
