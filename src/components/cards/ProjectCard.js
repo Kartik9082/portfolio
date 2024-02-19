@@ -11,7 +11,6 @@ const ProjectCard = ({
   tags,
   skills,
 }) => {
-
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -19,8 +18,14 @@ const ProjectCard = ({
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-start m-4 p-6 bg-custom-color" data-aos="zoom-in">
-      <div className="flex flex-col items-center m-4 w-full  "data-aos="zoom-in-up" >
+    <div
+      className="flex flex-col justify-center items-start m-4 p-6 bg-custom-color rounded-2xl shadow-lg transition-all duration-700 hover:scale-110"
+      data-aos="zoom-in"
+    >
+      <div
+        className="flex flex-col items-center m-4 w-full  "
+        data-aos="zoom-in-up"
+      >
         <img className="w-1/2 object-fill" src={image} alt="projectPic" />
       </div>
       <div className="flex justify-between items-center m-1 p-2 w-full">

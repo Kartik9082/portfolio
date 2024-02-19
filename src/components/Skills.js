@@ -19,7 +19,7 @@ const Skills = () => {
       </div>
       <div className="lg:w-11/12 flex flex-row lg:p-6 sm:p-4 p-2 flex-wrap lg:gap-10 sm:gap-4 gap-2 justify-center items-center">
         {skills.map((item) => {
-          return <SkilItem image={item.image} name={item.name} />;
+          return <SkilItem key={item.name} image={item.image} name={item.name} />;
         })}
       </div>
     </div>

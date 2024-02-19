@@ -49,11 +49,12 @@ export const skills = [
     name: "Github",
     image: "https://img.icons8.com/?size=512&id=16318&format=png",
   },
+  
 ];
 
 export const projects = [
   {
-    id: 1,
+    id: 0,
     title: "Swiggy Clone",
     date: "Oct 2023 - Nov 2023",
     description:
@@ -64,7 +65,7 @@ export const projects = [
     github: "https://github.com/Kartik9082/food-website",
   },
   {
-    id: 2,
+    id: 1,
     title: "NetFlix-GPT",
     date: "Nov 2023 - Dec 2023",
     description:
@@ -75,7 +76,7 @@ export const projects = [
     github: "https://github.com/Kartik9082/netflix-gpt",
   },
   {
-    id: 3,
+    id: 2,
     title: "Ecommerce Website",
     date: "Jan 2024 - Jan 2024",
     description:

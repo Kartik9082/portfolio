@@ -51,7 +51,7 @@ const Hero = () => {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 256 256"
                     height="1em"
                     width="1em"
@@ -69,7 +69,7 @@ const Hero = () => {
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
-                    stroke-width="0"
+                    strokeWidth="0"
                     viewBox="0 0 256 256"
                     height="1em"
                     width="1em"
@@ -91,17 +91,17 @@ const Hero = () => {
                 <p className="text-[11px] text-[#B3BAC5]">Here, Join my journey as a fresh tech enthusiast, navigating challenges with enthusiasm and a fresh perspective. Passionate about innovation and problem-solving, I eagerly embrace opportunities for growth, ready to make my mark with curiosity and adaptability.</p>
                 <button className="flex flex-row items-center mt-2 gap-2 w-fit font-light border-b py-1 border-lightGrayText hover:text-yellow-400 hover:border-yellow-300 text-[14px]">
                   more About Me 
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-lg " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="text-lg " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z">
                     </path>
                     </svg> </button>
               </div>
             </a>
-            <a href="/about">
+            <a href="/projects">
             <div className="flex flex-col gap-2 xl:py-6 py-6 border-b-2 border-[#282E37]">
                 <p className="font-bold">projects</p>
                 <p className="text-[11px] text-[#B3BAC5]">In my journey, I've created exciting frontend projects that showcase creativity, innovation, and dedication. From responsive designs to interactive interfaces, I've honed my skills and explored new horizons. These projects reflect my passion for crafting engaging user experiences in the digital realm</p>
-                <button className="flex flex-row items-center mt-2 gap-2 w-fit font-light border-b py-1 border-lightGrayText hover:text-yellow-400 hover:border-yellow-300 text-[14px]">see my work<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-lg " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg> </button>
+                <button className="flex flex-row items-center mt-2 gap-2 w-fit font-light border-b py-1 border-lightGrayText hover:text-yellow-400 hover:border-yellow-300 text-[14px]">see my work<svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="text-lg " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg> </button>
               </div>
             </a>
             <a></a>

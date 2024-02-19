@@ -1,5 +1,5 @@
 import React from "react";
-import { projects, skills } from "../utils/constants";
+import { projects, } from "../utils/constants";
 import ProjectCard from "./cards/ProjectCard";
 
 const Projects = () => {
@@ -15,7 +15,7 @@ const Projects = () => {
         {projects.map((item) => {
           return (
             <ProjectCard
-              id={item.id}
+              key={item.id}
               image={item.image}
               title={item.title}
               date={item.date}
