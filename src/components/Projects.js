@@ -1,6 +1,7 @@
 import React from "react";
 import { projects, } from "../utils/constants";
 import ProjectCard from "./cards/ProjectCard";
+import ProjectPageCard from "./cards/ProjectPageCard";
 
 const Projects = () => {
   return (
@@ -11,11 +12,11 @@ const Projects = () => {
           Take a Look at my Latest Projects I've Done
         </p>
       </div>
-      <div className="flex flex-col sm:flex sm:flex-row sm:flex-wrap gap-5 justify-start sm:justify-center items-center py-0 ">
-        {projects.map((item) => {
+      <div className="flex flex-col sm:flex sm:flex-row sm:flex-wrap gap-5 justify-start sm:justify-center items-center py-0 bg-white">
+        {projects.map((item,index) => {
           return (
-            <ProjectCard
-              key={item.id}
+            <ProjectPageCard
+              key={index}
               image={item.image}
               title={item.title}
               date={item.date}

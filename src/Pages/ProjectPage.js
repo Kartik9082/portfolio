@@ -2,9 +2,10 @@ import React from "react";
 import { projects } from "../utils/constants";
 import ProjectCard from "../components/cards/ProjectCard";
 
+
 const ProjectPage = () => {
   return (
-    <div className="font-poppins text-white flex flex-row m-2 p-2 ">
+    <div className="flex flex-col sm:flex sm:flex-row sm:flex-wrap gap-5 justify-start sm:justify-center items-center py-0 text-white font-poppins ">
       {projects.map((item) => (
         <ProjectCard
           key={item.id}

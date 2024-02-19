@@ -56,7 +56,7 @@ export const projects = [
   {
     id: 0,
     title: "Swiggy Clone",
-    date: "Oct 2023 - Nov 2023",
+    date: "Oct 23 - Nov 23",
     description:
       "A Swiggy's Clone using React, React Router, Redux Toolkit, and Tailwind CSS. It seamlessly integrates Swiggy's live API, enabling users to explore restaurants, cuisines, and dishes effortlessly",
     image:
@@ -67,7 +67,7 @@ export const projects = [
   {
     id: 1,
     title: "NetFlix-GPT",
-    date: "Nov 2023 - Dec 2023",
+    date: "Nov 23 - Dec 23",
     description:
       "A Netflix clone that provides users with a familiar interface to browse movies. The application is integrated with TMDB to fetch movie details and with Firebase for authentication. ",
     image:
@@ -78,7 +78,7 @@ export const projects = [
   {
     id: 2,
     title: "Ecommerce Website",
-    date: "Jan 2024 - Jan 2024",
+    date: "Jan 24 - Jan 24",
     description:
       "A Ecommerce website , Tech-stack used : ReactJS, React Router, Redux, Tailwind CSS, Redux",
     image:
