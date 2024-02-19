@@ -11,7 +11,7 @@ function App() {
     <div className="bg-[#1F363D] text-white">
       <Navbar />
       <Hero />
-      <About/>
+      {/* <About/> */}
       <Skills />
       <Projects />
       <Education />
